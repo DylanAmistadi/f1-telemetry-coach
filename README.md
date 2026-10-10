@@ -53,3 +53,6 @@ See `requirements.txt`. Built with:
 - `pandas`
 - `numpy`
 - `matplotlib`
+
+## Disclaimer
+This project is for educational and non-commercial purposes only. It is not affiliated with, associated with, or endorsed by Formula 1, the FIA, or any official Formula 1 teams. All telemetry data is fetched via the public API parsed by `fastf1`. All rights to the F1 data and trademarks belong to their respective owners.
