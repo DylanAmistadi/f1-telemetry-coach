@@ -1,0 +1,24 @@
+# Virtual environments
+.venv/
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# FastF1 Cache
+cache/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Agent instructions / Testing
+.agents/
+test_schedule.py
+
+# OS generated files
+.DS_Store
+Thumbs.db
