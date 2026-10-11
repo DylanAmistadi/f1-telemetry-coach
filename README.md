@@ -2,6 +2,9 @@
 
 An advanced, interactive telemetry analysis dashboard built with Python and Streamlit. This tool acts as an automated Race Engineer by directly comparing the telemetry of two drivers, using the faster lap as a baseline "Reference". It analyzes F1 telemetry data from `fastf1` to provide quantitative, prescriptive coaching feedback for the "Comparison" driver.
 
+![Dashboard Preview](dashboard_preview.png)
+![Dashboard Preview](dashboard_preview.png)
+
 ## Features
 
 - **Interactive Telemetry Dashboard:** 4-panel interactive Plotly charts (Delta, Speed, Throttle, Brake) with cross-hair hovering and zoom.
