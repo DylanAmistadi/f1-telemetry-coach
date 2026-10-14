@@ -2,6 +2,13 @@ import fastf1
 import requests
 import urllib3
 import pandas as pd
+import os
+
+
+os.makedirs('cache', exist_ok=True)
+
+# Enable cache
+fastf1.Cache.enable_cache('cache')
 
 # Monkey-patch SSL verification due to Ergast/Jolpica backend issues
 urllib3.disable_warnings()
